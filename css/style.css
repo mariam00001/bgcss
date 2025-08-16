@@ -304,7 +304,7 @@ body {
   height: 422px;
   object-fit: cover;
   flex-shrink: 0;
-  border-radius: 8px;
+  border-radius: 1px;
 }
 
 .image-carousel::-webkit-scrollbar {
@@ -1065,6 +1065,12 @@ width: 80% !important;
 }
 .footer-links a {
   margin-right: 10px;
+}
+.social-gradient-card {
+  background: linear-gradient(3.74deg, #DAE4F1 -30.22%, #FFFFFF 96.86%);
+  border-radius: 10px;
+  padding: 5rem 2rem;
+  text-align: center;
 }
 }
 @media (max-width: 576px) {
