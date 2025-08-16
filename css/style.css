@@ -313,14 +313,17 @@ body {
 
 /* Content Box */
 .content-box {
-  height: 27rem;
+  height: 28rem;
   background: linear-gradient(270deg, #dae4f1 -23.16%, #ffffff 94.65%);
   border-radius: 10px;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 0%;
   left: 0;
   /* width: 30rem; */
+}
+.padding{
+  padding-top: 100px;
 }
 
 /* Gradient Cards */
@@ -1072,6 +1075,9 @@ width: 80% !important;
   border-radius: 10px;
   padding: 5rem 2rem;
   text-align: center;
+}
+.padding{
+  padding-top: 10px;
 }
 }
 @media (max-width: 576px) {
